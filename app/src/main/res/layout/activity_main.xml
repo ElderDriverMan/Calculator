@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:background="@drawable/color"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/tv_main_displayy"
@@ -22,7 +23,11 @@
             android:padding="20dp"
             android:singleLine="true"
             android:textAlignment="textEnd"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            app:autoSizeMaxTextSize="75sp"
+            app:autoSizeMinTextSize="20sp"
+            app:autoSizeStepGranularity="5sp"
+            app:autoSizeTextType="uniform" />
 
         <TableLayout
             android:layout_width="match_parent"
