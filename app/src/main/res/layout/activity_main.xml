@@ -23,7 +23,7 @@
             android:padding="20dp"
             android:singleLine="true"
             android:textAlignment="textEnd"
-            android:textSize="80sp"
+            android:textSize="60sp"
             app:autoSizeMaxTextSize="75sp"
             app:autoSizeMinTextSize="20sp"
             app:autoSizeStepGranularity="5sp"
