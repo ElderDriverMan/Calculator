@@ -18,7 +18,7 @@ public class Algorithm extends  MainActivity{
                 str.insert(i, '0');
             }
         }
-        StringBuilder temp = new StringBuilder();
+        StringBuffer temp = new StringBuffer();
         List<String> list = new ArrayList<>();
         ArrayList<String> result = new ArrayList<>();
         for (int i = 0; i < str.length(); i++){
